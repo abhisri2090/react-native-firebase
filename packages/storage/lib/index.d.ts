@@ -242,6 +242,8 @@ export namespace FirebaseStorageTypes {
    * An interface representing all the metadata properties that can be set.
    *
    * This is used in updateMetadata, put, putString & putFile.
+   * 
+   * File must exist on cloud before setting metadata
    */
   export interface SettableMetadata {
     /**
